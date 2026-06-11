@@ -1,7 +1,6 @@
-# QA Middle Assignment
+# QA Testing Portfolio
 
 ## Описание проекта
-
 Тестовое задание на позицию QA инженер-тестировщик. Проект покрывает:
 - REST API тестирование (Postman + Newman)
 - UI тест-кейсы (ручное тестирование)
@@ -44,16 +43,15 @@ npx newman run postman/collection.json -e postman/environment.json
 
 ## Что бы улучшил при наличии дополнительного времени
 
-- Добавить CI через GitHub Actions для автозапуска тестов на push
-- Подключить Allure Report для красивых HTML отчётов
+- Подключить Allure Report для более детальных HTML отчётов
 - Добавить больше негативных сценариев для API
-- Добавить тесты для Dynamic Loading страницы
-- Добавить Dockerfile для изолированного запуска
+- Добавить автотесты для Dynamic Loading страницы
 - Расширить параметризацию тестов
+- Добавить тесты для Drag and Drop страницы
 
 ## Окружение
 
-- Node.js 24+
+- Node.js 18+
 - Playwright 1.x
 - Newman (входит в npm install)
 - SQL совместим с PostgreSQL
